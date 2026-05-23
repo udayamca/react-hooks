@@ -26,6 +26,16 @@ export default function UseState() {
         <button onClick={() => increase(100)}>Increase</button>
         <button onClick={() => decrease(50)}>Decrease</button>
       </div>
+      <br />
+      <hr
+        style={{
+          width: "100%",
+          height: "1px",
+          color: "blue",
+          borderTop: "1px solid cornflowerblue",
+        }}
+      />
+      <br />
     </>
   );
 }
