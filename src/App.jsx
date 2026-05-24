@@ -3,6 +3,7 @@ import "./App.css";
 import UseState from "../components/UseState";
 import UseReducer from "../components/UseReducer";
 import UseContext from "../components/UseContext";
+import UseMemo from "../components/UseMemo";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <UseState />
       <UseReducer />
       <UseContext />
+      <UseMemo />
     </>
   );
 }
