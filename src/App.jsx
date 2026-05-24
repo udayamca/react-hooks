@@ -4,15 +4,17 @@ import UseState from "../components/UseState";
 import UseReducer from "../components/UseReducer";
 import UseContext from "../components/UseContext";
 import UseMemo from "../components/UseMemo";
+import UseCallback from "../components/UseCallback";
 
 function App() {
   return (
     <>
       <h1>React Hooks</h1>
-      <UseState />
+      {/* <UseState />
       <UseReducer />
       <UseContext />
-      <UseMemo />
+      <UseMemo /> */}
+      <UseCallback />
     </>
   );
 }
