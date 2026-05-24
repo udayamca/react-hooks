@@ -5,6 +5,7 @@ import UseReducer from "../components/UseReducer";
 import UseContext from "../components/UseContext";
 import UseMemo from "../components/UseMemo";
 import UseCallback from "../components/UseCallback";
+import UseEffect from "../components/useEffect";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       {/* <UseState />
       <UseReducer />
       <UseContext />
-      <UseMemo /> */}
-      <UseCallback />
+      <UseMemo />
+      <UseCallback /> */}
+      <UseEffect />
     </>
   );
 }
