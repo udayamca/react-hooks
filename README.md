@@ -88,3 +88,11 @@ changed. Value lives in .current.
 
 - DOM access - we can use focus event using useRef
 - keep previous state reference on useRef
+
+## useId
+
+useid — useId is generate unique id. Its a replacement of
+useOpaqueIdenfier usually we use Math.random() for generate id. Now
+useId can be replace math.random()
+
+do not use useId id on map keys
