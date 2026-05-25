@@ -46,48 +46,53 @@ export default function UseEffect() {
             <li>type4: we need to use useEffect on any api call.</li>
           </ul>
           <div>
-            {postData.map((data, index) => (
-              <div
-                key={index}
-                style={{
-                  display: "flex",
-                  textAlign: "left",
-                  padding: "0 20px",
-                  marginBottom: "-1px",
-                }}
-              >
+            {postData
+              .filter((item) => item.id <= "10")
+              .map((data, index) => (
                 <div
+                  key={index}
                   style={{
-                    width: "8%",
-                    padding: "10px",
-                    border: "1px solid ",
-                    marginLeft: "-1px",
+                    display: "flex",
+                    textAlign: "left",
+                    padding: "0 20px",
+                    marginBottom: "-1px",
                   }}
                 >
-                  {index + 1}
+                  <div
+                    style={{
+                      width: "5%",
+                      padding: "10px",
+                      border: "1px solid ",
+                      marginLeft: "-1px",
+                      backgroundColor: index % 2 == 0 ? "lightgray" : "white",
+                    }}
+                  >
+                    {index + 1}
+                  </div>
+                  <div
+                    style={{
+                      width: "40%",
+                      padding: "10px",
+                      border: "1px solid ",
+                      marginLeft: "-1px",
+                      backgroundColor: index % 2 == 0 ? "lightgray" : "white",
+                    }}
+                  >
+                    {data.title}
+                  </div>
+                  <div
+                    style={{
+                      width: "55%",
+                      padding: "10px",
+                      border: "1px solid ",
+                      marginLeft: "-1px",
+                      backgroundColor: index % 2 == 0 ? "lightgray" : "white",
+                    }}
+                  >
+                    {data.body}
+                  </div>
                 </div>
-                <div
-                  style={{
-                    width: "40%",
-                    padding: "10px",
-                    border: "1px solid ",
-                    marginLeft: "-1px",
-                  }}
-                >
-                  {data.title}
-                </div>
-                <div
-                  style={{
-                    width: "52%",
-                    padding: "10px",
-                    border: "1px solid ",
-                    marginLeft: "-1px",
-                  }}
-                >
-                  {data.body}
-                </div>
-              </div>
-            ))}
+              ))}
           </div>
         </div>
         <br />

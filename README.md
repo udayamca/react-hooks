@@ -96,3 +96,13 @@ useOpaqueIdenfier usually we use Math.random() for generate id. Now
 useId can be replace math.random()
 
 do not use useId id on map keys
+
+## customHook
+
+Custom hooks — functions starting with use that call other hooks
+inside. They extract reusable stateful logic (e.g. useWindowWidth,
+useFetch, useDebounce) without changing component structure.
+
+Custom hooks are regular JavaScript functions whose name starts with use and
+that call other hooks internally. They let you extract and reuse
+stateful logic across multiple components.
