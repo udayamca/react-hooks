@@ -106,3 +106,11 @@ useFetch, useDebounce) without changing component structure.
 Custom hooks are regular JavaScript functions whose name starts with use and
 that call other hooks internally. They let you extract and reuse
 stateful logic across multiple components.
+
+## useParam
+
+When you work on React Routes we can pass a param values on <Link to="/user/:paramname">
+
+On the page we can use the username (paramname) as a param using useParam.
+
+eg: const { paramname } = useParam()

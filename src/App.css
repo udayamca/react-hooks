@@ -1,9 +1,29 @@
 .flex {
   display: flex;
-  flex-direction: row; 
+  flex-direction: column; 
   margin: 10px;
+  justify-content: center;
+  align-items: center;
 
   div {
     margin-right: 10px;
   }
+}
+
+.router {
+  display: flex;
+  flex-direction: col; 
+  margin: 10px;
+  justify-content: center;
+  align-items: top;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column; 
+  margin: 0 20px;
+  justify-content: center;
+  align-items: top;
+  border-right: 1px solid;
+  padding: 10px;
 }

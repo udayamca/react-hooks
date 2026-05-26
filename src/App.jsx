@@ -9,12 +9,16 @@ import UseEffect from "../components/UseEffect";
 import UseRef from "../components/UseRef";
 import UseId from "../components/UseId";
 import UseCustom from "../components/UseCustom";
+import ClassComponent from "../components/ClassComponent";
+import ReactRouter from "../components/ReactRouter";
+import NavigateRoute from "../components/NavigateRoute";
 
 function App() {
   return (
     <>
       <div style={{ margin: "20px" }}>
-        <h1>React Hooks</h1>
+        <ReactRouter />
+        {/*         
         <UseState />
         <UseReducer />
         <UseContext />
@@ -24,6 +28,7 @@ function App() {
         <UseRef />
         <UseId />
         <UseCustom />
+        <ClassComponent /> */}
       </div>
     </>
   );
