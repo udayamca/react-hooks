@@ -49,6 +49,9 @@ export default function NavigateRoute() {
             <li>
               <Link to="/classcomponent">ClassComponent</Link>
             </li>
+            <li>
+              <Link to="/hoc">Higher Ordered Component</Link>
+            </li>
           </ul>
         </div>
       </div>
