@@ -6,9 +6,9 @@ const HigherOrderEnhancement = (Comp) => {
     };
 
     return (
-      <div onClick={handleClick}>
+      <span onClick={handleClick}>
         <Comp {...props} />
-      </div>
+      </span>
     );
   };
 };
