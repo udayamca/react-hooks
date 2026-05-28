@@ -27,3 +27,52 @@
   border-right: 1px solid;
   padding: 10px;
 }
+
+.crud {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form {
+    display: grid;
+    margin-top: 20px;
+  }
+
+  .form input {
+    border: 1px solid #999;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    outline: none;
+  }
+
+  .form button, .form .buttonDiv button {
+    padding: 8px 10px;
+    margin-right: 10px;
+  }
+
+  .userInfo table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+
+    thead {
+      background-color: lightgray;
+    }
+
+    td, th {
+      border: 1px solid #000;
+      padding: 10px;
+    }
+
+    td button {
+      margin-right: 10px;
+      padding: 8px 10px;
+    }
+  }
+  
+}

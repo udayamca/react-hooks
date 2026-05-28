@@ -52,6 +52,9 @@ export default function NavigateRoute() {
             <li>
               <Link to="/hoc">Higher Ordered Component</Link>
             </li>
+            <li>
+              <Link to="/crud">CRUD Operation</Link>
+            </li>
           </ul>
         </div>
       </div>

@@ -12,6 +12,7 @@ import UseCustom from "./UseCustom";
 import ClassComponent from "./ClassComponent";
 import Home from "./Home";
 import HigherOrderComponent from "./HigherOrderComponent";
+import CRUD from "./CRUD";
 
 export default function ReactRouter() {
   return (
@@ -34,6 +35,7 @@ export default function ReactRouter() {
             <Route path="/usecustom" element={<UseCustom />} />
             <Route path="/classcomponent" element={<ClassComponent />} />
             <Route path="/hoc" element={<HigherOrderComponent />} />
+            <Route path="/crud" element={<CRUD />} />
           </Routes>
         </div>
       </div>
