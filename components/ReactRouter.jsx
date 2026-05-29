@@ -13,6 +13,7 @@ import ClassComponent from "./ClassComponent";
 import Home from "./Home";
 import HigherOrderComponent from "./HigherOrderComponent";
 import CRUD from "./CRUD";
+import MoveUpDown from "./MoveUpDown";
 
 export default function ReactRouter() {
   return (
@@ -36,6 +37,7 @@ export default function ReactRouter() {
             <Route path="/classcomponent" element={<ClassComponent />} />
             <Route path="/hoc" element={<HigherOrderComponent />} />
             <Route path="/crud" element={<CRUD />} />
+            <Route path="/updown" element={<MoveUpDown />} />
           </Routes>
         </div>
       </div>

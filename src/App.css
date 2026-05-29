@@ -28,7 +28,7 @@
   padding: 10px;
 }
 
-.crud {
+.crud, .moveUpDown {
   .container {
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@
     margin-right: 10px;
   }
 
-  .userInfo table {
+  .userInfo table, .userTable table  {
     border: 1px solid #000;
     border-collapse: collapse;
     width: 100%;
@@ -74,5 +74,23 @@
       padding: 8px 10px;
     }
   }
+}
+
   
+.moveUpDown {
+  .userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    input, button {
+      padding: 5px 10px;
+    }
+
+    div {
+      margin-right: 10px;
+    }
+
+  }
 }
