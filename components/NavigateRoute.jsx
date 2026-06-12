@@ -58,6 +58,9 @@ export default function NavigateRoute() {
             <li>
               <Link to="/updown">Move Up Down - Operation</Link>
             </li>
+            <li>
+              <Link to="/photos">Photo Gallery</Link>
+            </li>
           </ul>
         </div>
       </div>

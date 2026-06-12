@@ -1,4 +1,4 @@
-.flex {
+.flex, .photo-gallery-container {
   display: flex;
   flex-direction: column; 
   margin: 10px;
@@ -8,6 +8,37 @@
   div {
     margin-right: 10px;
   }
+}
+
+.photo-gallery-container {
+  flex-direction: row; 
+}
+
+.image-container {
+  width: 400px;
+  border: 1px solid;
+  display: block;
+  height: 300px;
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: lightcoral;
+}
+
+.arrow button {
+  padding: 12px;
+  align-items: center;
+  font-size: 20px;
+  line-height: 12px;
+  cursor: pointer;
 }
 
 .router {

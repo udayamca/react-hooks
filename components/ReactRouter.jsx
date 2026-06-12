@@ -14,6 +14,7 @@ import Home from "./Home";
 import HigherOrderComponent from "./HigherOrderComponent";
 import CRUD from "./CRUD";
 import MoveUpDown from "./MoveUpDown";
+import PhotoGallery from "./PhotoGallery";
 
 export default function ReactRouter() {
   return (
@@ -38,6 +39,7 @@ export default function ReactRouter() {
             <Route path="/hoc" element={<HigherOrderComponent />} />
             <Route path="/crud" element={<CRUD />} />
             <Route path="/updown" element={<MoveUpDown />} />
+            <Route path="/photos" element={<PhotoGallery />} />
           </Routes>
         </div>
       </div>
