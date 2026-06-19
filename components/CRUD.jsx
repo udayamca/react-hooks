@@ -57,7 +57,7 @@ export default function CRUD() {
     setButtonState("add");
   };
 
-  const updateUserInfo = (id) => {
+  const updateUserInfo = () => {
     setUsers((currInfo) => {
       return currInfo.map((user) => {
         if (user.id === userInfo.id) {
@@ -67,7 +67,7 @@ export default function CRUD() {
         return user;
       });
     });
-    // cancelEdit();
+    cancelEdit();
   };
 
   return (
